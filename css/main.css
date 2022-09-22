@@ -14,7 +14,7 @@
 .socia-contact a:hover{
 color: #1e262c;
 }
-.soc
+
 
 
 .flex-quick-access{
@@ -28,6 +28,8 @@ color: #1e262c;
     color: #5c768d;
     margin-right: 10px;
 }
+
+
 .mail-phone i{
     color: #428bca;
     font-size: 18px;
@@ -61,12 +63,12 @@ color: #1e262c;
 .manu-list > ul > li{
     padding-left: 20px;
 }
-.str-btn{
+/* .str-btn{
     text-decoration: none;
     padding: 7px 20px;
     background: #5fcf80;
     color: #ffffff;
-    border-radius: 50px;
+    border-radius: 50px; */
 }
 .str-btn:hover{
     color: #ffffff;
@@ -116,7 +118,7 @@ color: #1e262c;
     height: 600px;
     background-image: url(../images/slide/slide-1.jpg);
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center 0;
 }
@@ -136,8 +138,8 @@ color: #1e262c;
 }
 .banner-details h1{
     display: flex;   
-    color: rgb(17, 13, 13);
-    font-size: 50px;
+    color: rgb(224, 224, 224);
+    font-size: 60px;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
 }
@@ -167,14 +169,23 @@ color: #1e262c;
 }
 .flex-about-section{
     display: flex;
-    box-shadow: 0 0 10px rgb(206, 191, 191);
+    box-shadow: 0 0 10px rgb(202, 220, 242);
 }
 .about-section-image{
     padding: 10px;
 }
 .aboutimage{
     width: 100%;
+    /* position: relative;
+    left: 420px;
+    margin: 0; */
+    
 }
+/* .icofont-play-alt-1{
+    position: absolute;
+    color: #d5e3eb;
+} */
+
 .about-text-title{
     text-align: center;
     padding-top: 60px;
@@ -236,19 +247,24 @@ color: #1e262c;
 
 .features-list{
     padding: 40px;
-    border-left: solid 1px #373c41;
-    border-bottom: solid 1px #506171;
+    /* border-left: solid 1px #373c41;
+    border-bottom: solid 1px #506171; */
     margin: -1px;
+    
 }
+
+
+
+
 .features-para{
-    font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Segoe UI", system-ui,  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     line-height: 25px;
     color: #aaaaaa;
 }
 .flex-features span{
     font-size: 25px;
-    color: #9eccf4;
+    color: #163652;
 }
 .flex-features{
     padding-top: 40px;
@@ -261,9 +277,7 @@ color: #1e262c;
     margin: 30px 0;
 }
 
-/* ---------------features sec ends--------------------- */
-
-/* ---------------clients sec starts--------------------- */
+/* -clients-- */
 
 
 .clients{
@@ -611,8 +625,8 @@ color: #1e262c;
     padding-bottom: 34px;
 }
 .address-box-first i{
-    font-size: 25px;
-    color: #163652;
+    font-size: 28px;
+    color: #0e2234;
     border: 2px dotted #9eccf4;
     border-radius: 100%;
     padding: 8px;
@@ -644,6 +658,10 @@ color: #1e262c;
     border: 2px dotted #9eccf4;
     border-radius: 100%;
     padding: 6px;
+}
+.address-box-content i:hover{
+color: #0d6efd;
+transform: scale(1.1);
 }
 .address-box-content h4{ 
     font-size: 18px;
